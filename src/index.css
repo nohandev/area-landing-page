@@ -1,10 +1,10 @@
-@import 'tailwindcss';
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap');
+@import 'tailwindcss';
 
 
 @theme {
-  --font-crismon: "Crimson Text", serif;
+  --font-crimson: "Crimson Text", serif;
   --font-dmsans:"DM Sans", sans-serif;
   
   --color-background: #FFFFFF;

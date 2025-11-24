@@ -63,8 +63,8 @@ const Navigation = () => {
   const [isClosed, setIsClosed] = useState<boolean>(true)
 
   return (
-    <nav className='w-full shadow-sm shadow-muted/50 rounded-b-xl font-bold'>
-      <div className='flex justify-between items-center p-5 font-bold'>
+    <nav className='w-full shadow-sm shadow-muted/50 rounded-b-xl font-bold md:shadow-none '>
+      <div className='flex justify-between items-center p-5 font-bold mx-auto max-w-7xl'>
 
         <div>
           <img src='/Area.png' alt='main logo'/>
