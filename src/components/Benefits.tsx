@@ -31,8 +31,8 @@ const Benefits = () => {
   ]
 
   return (
-    <section className='min-h-screen'>
-      <div className='max-w-7xl mx-auto mt-24 p-5'>
+    <section>
+      <div className='max-w-7xl mx-auto mt-24 px-5'>
         <div className='flex flex-col items-start gap-20'>
           <h4 className='font-roboto text-primary text-xs'>
             Benefits
@@ -52,7 +52,7 @@ const Benefits = () => {
           {data.map(content => <BenefitsCard key={content.id} title={content.title} description={content.description} icon={content.icon} />)}
         </article>
 
-        <div className='max-h-screen'>
+        <div>
           <img 
             src='/benefits.jpg' 
             alt='mountains for benefits feature'
