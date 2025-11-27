@@ -3,6 +3,7 @@ import Hero from "@components/Hero"
 import Sponsorships from "@components/Sponsorships"
 import Benefits from "@/components/Benefits"
 import Features from "@/components/Features"
+import Specifications from "@/components/Specifications"
 
 const App = () => {
   return (
@@ -13,6 +14,7 @@ const App = () => {
         <Sponsorships/>
         <Benefits/>
         <Features/>
+        <Specifications/>
       </main>
     </div>
   )
