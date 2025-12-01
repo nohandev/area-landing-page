@@ -1,9 +1,10 @@
-import Navigation from "@components/Navigation"
-import Hero from "@components/Hero"
-import Sponsorships from "@components/Sponsorships"
-import Benefits from "@/components/Benefits"
-import Features from "@/components/Features"
-import Specifications from "@/components/Specifications"
+import Navigation from '@components/Navigation'
+import Hero from '@components/Hero'
+import Sponsorships from '@components/Sponsorships'
+import Benefits from '@/components/Benefits'
+import Features from '@/components/Features'
+import Specifications from '@/components/Specifications'
+import Testimonial from '@/components/Testimonial'
 
 const App = () => {
   return (
@@ -15,6 +16,7 @@ const App = () => {
         <Benefits/>
         <Features/>
         <Specifications/>
+        <Testimonial/>
       </main>
     </div>
   )
