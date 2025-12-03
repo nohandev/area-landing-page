@@ -7,6 +7,7 @@ import Specifications from '@/components/Specifications'
 import Testimonial from '@/components/Testimonial'
 import HowToIt from '@/components/HowToIt'
 import ConnectWithUs from '@/components/ConnectWithUs'
+import Footer from '@/components/Footer'
 
 const App = () => {
   return (
@@ -22,6 +23,8 @@ const App = () => {
         <HowToIt/>
         <ConnectWithUs/>
       </main>
+
+      <Footer/>
     </div>
   )
 }

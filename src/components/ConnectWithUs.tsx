@@ -3,7 +3,7 @@ import { ArrowUpRight } from 'lucide-react'
 
 const ConnectWithUs = () => {
   return (
-    <section className='p-5 h-[50dvh] flex items-center justify-center'>
+    <section className='p-5 h-[75dvh] flex items-center justify-center'>
       <div className='w-full max-w-7xl mx-auto'>
         <div className='mx-auto flex justify-center flex-col gap-8 max-w-2xl text-center'>
           <h1 className='font-crimson text-6xl'>Connect With Us</h1>
